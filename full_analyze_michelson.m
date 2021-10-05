@@ -31,7 +31,7 @@ symmetrized_scan = scan_symmetrize(corrected_scan, pso_const, cm_edge_cut, true)
 
 out_data_fft = abs(fft(out_data_raw));
 out_wvl = 1E7./out_wvnum/wvl_correction;
-figure(2);
-plot(out_wvl, out_data_fft);
-grid on;
-xlim([1139 1141.5]);
+% figure(2);
+% plot(out_wvl, out_data_fft);
+% grid on;
+% xlim([1139 1141.5]);
